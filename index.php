@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,5 +15,12 @@
     <input type="text" placeholder="Enter your name">
     <input type="password" placeholder="Enter your password">
     <input type="email" placeholder="Enter your email">
+    <form action="submit.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name">
+        <input type="password" name="password" placeholder="Enter your password">
+        <input type="email" name="email" placeholder="Enter your email">
+        <button type="submit">Submit</button>
+    </form>
+    <table>
 </body>
 </html>
